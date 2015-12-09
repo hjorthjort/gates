@@ -1,8 +1,8 @@
 package me.saser.gates.generators;
 
-import me.saser.gates.Output;
+import me.saser.gates.Signal;
 
-public class OneGenerator implements Output {
+public class OneGenerator implements Signal {
 
     @Override
     public boolean value() {

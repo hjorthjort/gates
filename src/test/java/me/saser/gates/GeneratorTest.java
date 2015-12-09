@@ -9,13 +9,13 @@ public class GeneratorTest {
 
     @Test
     public void testOneGenerator() {
-        Output generator = new OneGenerator();
+        Signal generator = new OneGenerator();
         assertTrue("A one generator should always output true", generator.value());
     }
 
     @Test
     public void testZeroGenerator() {
-        Output generator = new ZeroGenerator();
+        Signal generator = new ZeroGenerator();
         assertFalse("A zero generator should always output false", generator.value());
     }
 
