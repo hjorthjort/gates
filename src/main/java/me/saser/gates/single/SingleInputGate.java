@@ -1,4 +1,6 @@
-package me.saser.gates;
+package me.saser.gates.single;
+
+import me.saser.gates.Signal;
 
 public interface SingleInputGate extends Signal {
     /**
