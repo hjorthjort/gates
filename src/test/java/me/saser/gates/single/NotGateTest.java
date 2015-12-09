@@ -17,4 +17,14 @@ public class NotGateTest {
         assertFalse("A not:ed one (true) should be come zero (false)", notOne.value());
     }
 
+    @Test
+    public void testFalseBcomesTrue() {
+        // Set up a mock signal that always outputs false
+        Signal zero = mock(Signal.class);
+        when(zero.value()).thenReturn(false);
+
+        Signal notZero = new NotGate(zero);
+        assertTrue("A not:ed zero (false) should be come one (true)", notZero.value());
+    }
+
 }
