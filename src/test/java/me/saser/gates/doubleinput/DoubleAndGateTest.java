@@ -51,7 +51,7 @@ public class DoubleAndGateTest {
 
         // Switch places of inputs around
         gate.setInputs(secondInput, firstInput);
-        assertFalse("zero & one (flipped around) should give zeor", gate.value());
+        assertFalse("zero & one (flipped around) should give zero", gate.value());
     }
 
 }
