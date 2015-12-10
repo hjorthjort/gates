@@ -1,4 +1,4 @@
-package me.saser.gates.single;
+package me.saser.gates.singleinput;
 
 import me.saser.gates.Signal;
 import org.junit.Test;
