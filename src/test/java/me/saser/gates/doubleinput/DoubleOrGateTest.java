@@ -49,11 +49,11 @@ public class DoubleOrGateTest {
         Signal secondInput = ZERO;
 
         DoubleOrGate gate = new DoubleOrGate(firstInput, secondInput);
-        assertTrue("one & zero should give zero", gate.value());
+        assertTrue("one & zero should give one", gate.value());
 
         // Switch places of inputs around
         gate.setInputs(secondInput, firstInput);
-        assertTrue("zero & one (flipped around) should give zero", gate.value());
+        assertTrue("zero & one (flipped around) should give one", gate.value());
     }
 
 }
