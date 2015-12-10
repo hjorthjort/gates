@@ -11,7 +11,7 @@ public class NotGateTest {
     private static Signal ZERO, ONE;
 
     @BeforeClass
-    public void setUp() {
+    public static void setUp() {
         // Set up mock signals
         Signal mockZero = mock(Signal.class);
         when(mockZero.value()).thenReturn(false);
