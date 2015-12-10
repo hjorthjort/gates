@@ -1,4 +1,4 @@
-package me.saser.gates.multi;
+package me.saser.gates.doubleinput;
 
 import me.saser.gates.Signal;
 
